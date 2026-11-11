@@ -7,12 +7,12 @@ f.close()
 
 setup(
     name='django-wysiwyg-redactor-ng',
-    version='1.0.0',
+    version='1.0.1',
     description='django-wysiwyg-redactor-ng is a lightweight responsive wysiwyg editor for Django',
     long_description=readme,
     author="Robert Chiang",
     author_email='robert@streetvoice.com',
-    url='https://github.com/StreetVoice/django-wysiwyg-redactor',
+    url='https://github.com/Robert-Chiang/django-wysiwyg-redactor',
     license='MIT',
     packages=['redactor'],
     include_package_data=True,

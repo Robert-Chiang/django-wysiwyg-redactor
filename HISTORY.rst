@@ -1,6 +1,11 @@
 History
 =======
 
+1.0.1 Nov 11, 2026
+
+ * Replace deprecated django.conf.urls.url() with django.urls.re_path()
+ * Replace deprecated ugettext() with gettext()
+
 0.5.1 Apr 1, 2017
 
  * Upgrade to Redactor II 2.4
