@@ -1,25 +1,27 @@
 A lightweight wysiwyg editor for Django
 =======================================
 
-- This repo was forked from `https://github.com/douglasmiranda/django-wysiwyg-redactor <https://github.com/douglasmiranda/django-wysiwyg-redactor/>`_
+- This repo was forked from `https://github.com/KostyaEsmukov/django-wysiwyg-redactor <https://github.com/KostyaEsmukov/django-wysiwyg-redactor>`_
 - Original author: Douglas Miranda
 
 What's that
 -----------------
 
-*streetvoice-django-wysiwyg-redactor* is a text editor application for Django, using `Redactor WYSIWYG editor <https://imperavi.com/redactor/>`_
+*django-wysiwyg-redactor-ng* is a text editor application for Django, using `Redactor WYSIWYG editor <https://imperavi.com/redactor/>`_
 
 Dependency
 ----------
 
 - `Pillow or PIL` # for image upload
+- Python 2.x / Python 3.x
+- Django 2.0.x / Django 2.1.x
 
 Getting started
 ---------------
 
-- Install *streetvoice-django-wysiwyg-redactor*:
+- Install *django-wysiwyg-redactor-ng*:
 
-``pip install streetvoice-django-wysiwyg-redactor``
+``pip install django-wysiwyg-redactor-ng``
 
 - Add `'redactor'` to INSTALLED_APPS.
 
@@ -141,7 +143,7 @@ For example, if I want to use the DateDirectoryUploader handler, I will put this
 
 Upload permissions
 ------------------
-By default streetvoice-django-wysiwyg-redactor uses `staff_member_required` decorator from
+By default django-wysiwyg-redactor-ng uses `staff_member_required` decorator from
 `django.contrib.admin.views.decorators` package to control access to dispatch
 method.
 
@@ -155,7 +157,7 @@ upload files/images/etc.:
 
 File Storages
 -------------
-*streetvoice-django-wysiwyg-redactor* defaults to using the default media storage for your Django application.
+*django-wysiwyg-redactor-ng* defaults to using the default media storage for your Django application.
 
 This can be overridden to use a different storage backend with this settings.py variable:
 

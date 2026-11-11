@@ -6,9 +6,9 @@ readme = f.read()
 f.close()
 
 setup(
-    name='streetvoice-django-wysiwyg-redactor',
-    version='0.6.2',
-    description='streetvoice-django-wysiwyg-redactor is a lightweight responsive wysiwyg editor for Django',
+    name='django-wysiwyg-redactor-ng',
+    version='1.0.0',
+    description='django-wysiwyg-redactor-ng is a lightweight responsive wysiwyg editor for Django',
     long_description=readme,
     author="Robert Chiang",
     author_email='robert@streetvoice.com',
